@@ -1,0 +1,369 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecStore | E-Commerce</title>
+    <link rel="stylesheet" type="text/css" href="tecstore.css">
+    <link rel="stylesheet" type="text/css" href="produtos.css">
+    <link rel="stylesheet" type="text/css" href="carrinho.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    
+</head>
+<body>
+    <div class="navbar show-menu">
+<div class="header-inner-content"> 
+    <h1 class="logotipo">Tec<span>Store</span></h1>
+    <nav> 
+        <ul> 
+            <li><a href="tecstore.htm">Home</a></li>
+            <li><a href="Produtos.html">Produtos</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="Contactos.htm">Contactos</a></li>
+            <li><button class="btnEntrar-popup">Entrar</button></li>
+            
+
+        </ul>
+    </nav>
+    <div class="wrapper janela-modal">
+        <span class="icone-fechar">
+            <ion-icon name="close"></ion-icon></span>
+
+     <div class="formar-caixa entrar">
+        <h2>Entrar</h2>
+        <form action="#">
+            <div class="input-caixa">
+                <span class="icone">
+                    <ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div> 
+            <div class="input-caixa">
+                 <span class="icone">
+                    <ion-icon name="lock-closed"></ion-icon></span>
+                  <input type="password" required>
+                  <label>Password</label>
+            </div>
+            <div class="lembrar-esquecer">
+                <label><input type="checkbox">Lembrar-me</label>
+                <a href="#">Esqueceu a sua senha?</a>
+            </div>
+            <button type="submeter" class="buttan">Entrar</button>
+            <div class="entrar-registar">
+                <p>Não tem uma conta?<a href="#" class="registar-link"> Registe-se</a></p>
+            </div>
+        </form>
+    </div>
+
+    <div class="formar-caixa registar">
+        <h2>Registar</h2>
+        <form action="#">
+            <div class="input-caixa">
+                <span class="icone">
+                    <ion-icon name="person"></ion-icon>
+                </span>
+                <input type="text" required>
+                <label>Nome de usuário</label>
+            </div> 
+            <div class="input-caixa">
+                <span class="icone">
+                    <ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div> 
+            <div class="input-caixa">
+                 <span class="icone">
+                    <ion-icon name="lock-closed"></ion-icon></span>
+                  <input type="password" required>
+                  <label>Password</label>
+            </div>
+            <div class="lembrar-esquecer">
+                <label><input type="checkbox">Concordo com todos os termos & condições</label>
+                
+            </div>
+            <button type="submeter" class="btn">Registar</button>
+            <div class="entrar-registar">
+                <p>Já tem uma conta?<a href="#" class="entrar-link">Entrar</a></p>
+            </div>
+        </form>
+    </div>
+</div>
+<div class="nav-icon-container"> 
+    <div class="menu-icon">
+        <img src="images/menu.png" class="menu-button">
+    </div>
+<div class="buscar-box">
+    <div id="lupaBuscar" class="lupa-buscar">
+        <i class="bi bi-search"></i>
+    </div>
+<div id="inputBuscar" class="input-buscar">
+<input type="text" name="id" placeholder="Procura aqui">
+<div id="btnFechar" class="btn-fechar">
+    <i class="bi bi-x-circle"></i>
+</div>
+</div>
+</div>
+
+<div class="carrinho-icone">
+    <img src="imagens/cart.png">
+    <div class="fundo-desfocado"></div>
+  </div>
+  <span class="cart-quantity">0</span>
+  <div class="item">
+    <div class="conteudo">
+      <div class="preço-quantidade">
+        <div class="quantidade"> </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div class="cartTab">
+<h1 class="product-title">O teu carrinho</h1>
+<div class="listCart"></div>
+<div class="btn">
+<button class="close">Fechar</button>
+<button class="checkOut">Comprar</button>
+</div>
+</div>
+
+<header>
+    <div class="header-inner-content">
+<div class="header-bottom-side">
+    <div class="header-bottom-side-left">
+        <h2> A melhor loja de tecnologia do país!
+        </h2>
+        <p>A TecStore oferece o melhor ao seu cliente.<br> Aqui encontras
+         os melhores preços de todo o mercado!</p>
+            <a href="https://www.backmarket.pt/pt-pt/p/msi-gl65-leopard-10ser-453it-156-inch-i7-10750h-16gb-ssd-1000-gb-qwerty-italiano/f9d82e7e-2eca-425c-be56-54f2128fb02c?shopping=gmc&gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8Qc0CgD194IzyMTEyjHXJ6aDbC1FBVIpbWSFUuFWyHlyVYv3mixKzIaAva6EALw_wcB#l=12">
+                <button>Ver Agora &#8594;</button></a>
+    </div>
+        <div class="header-bottom-side-right">
+            <img src="images/gaming-msi-header.png">
+        </div>
+    </div>
+    </div>
+
+</header>
+
+<main> 
+    <div class="gray-background">
+        <div class="controls">      
+            <div class="bars">
+                <div class="bar" onclick="currentSlide(1)"></div>
+                <div class="bar" onclick="currentSlide(2)"></div>
+                <div class="bar" onclick="currentSlide(3)"></div>
+            </div>
+            
+        </div>
+        <button class="left-arrow arrow" onclick="slide(-1)">❮</button>
+        <button class="right-arrow arrow" onclick="slide(1)">❯</button>
+        <div class="page-inner-content">
+            <div class="carousel-container">
+                <div class="carousel-inner">
+                    <div class="slide">
+                        <a href="https://www.amazon.es/-/pt/dp/B0BS6VLYFZ/ref=sr_1_5?crid=1LZM25EADX4V7&keywords=port%C3%A1til&qid=1703972946&sprefix=port%C3%A1til%2Caps%2C315&sr=8-5&th=1"><img src="images/products/product-1.png" class="carousel-img"></a>
+                        <a href="https://www.amazon.es/-/pt/dp/B0833VJ5FQ/ref=sr_1_5?crid=1T4QD1PDD04YN&keywords=light+ring&qid=1703973214&sprefix=light+ring%2Caps%2C155&sr=8-5"><img src="images/products/product-2.png" class="carousel-img"></a>
+                        <a href="https://www.amazon.es/-/pt/dp/B08V1KWX37/ref=sr_1_6?crid=MYC8NQTIFMPC&keywords=brazo+microfono&qid=1703974066&sprefix=bra%C3%A7o+micro%2Caps%2C210&sr=8-6"><img src="images/products/product-3.png" class="carousel-img"></a>
+                    </div>
+                    <div class="slide">
+                        <a href="https://www.amazon.es/-/pt/dp/B094NZT75N/ref=sr_1_6?crid=IYYYV0VQBCML&keywords=tablet&qid=1703969964&sprefix=tablet%2Caps%2C341&sr=8-6"><img src="images/products/product-24.png" class="carousel-img"></a>
+                        <a href="https://www.amazon.es/-/pt/dp/B09QH6KD26/ref=sr_1_8?crid=2ZM3F50W179I7&keywords=telem%C3%B3vel&qid=1703970024&sprefix=telem%C3%B3vel%2Caps%2C192&sr=8-8&th=1"><img src="images/products/product-25.png" class="carousel-img"></a>
+                        <a href="https://www.amazon.es/dp/B0C6GK67BW/ref=sr_1_3_sspa?crid=CB110OJC4U4Q&keywords=cargador+type+c&qid=1703970161&sprefix=carregador+type+c%2Caps%2C209&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="images/products/product-26.png" class="carousel-img"></a>
+                    </div>
+                    <div class="slide">
+                       <a href="https://www.amazon.es/-/pt/dp/B09HGZHXJT/ref=sr_1_8?crid=OFB3E7FK21H1&keywords=gopro&qid=1703970201&sprefix=go+pro%2Caps%2C214&sr=8-8"><img src="images/products/product-27.png" class="carousel-img"></a>
+                       <a href="https://www.amazon.es/dp/B09MRNZ2MX/ref=sr_1_4_sspa?crid=1FCFE8XQA3PA7&keywords=pen&qid=1703970371&sprefix=pen%2Caps%2C479&sr=8-4-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"><img src="images/products/product-28.png" class="carousel-img"></a>
+                       <a href="https://www.amazon.es/dp/B07MMLTMXX/ref=sr_1_3_sspa?crid=2K0GYP4DD0IYY&keywords=tapete+gaming&qid=1703970424&sprefix=tapete+gamin%2Caps%2C259&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"><img src="images/products/product-29.png" class="carousel-img"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-inner-content">
+<h3 class="section-title">Mais vendidos!</h3>
+<div class="subtitle-underline"></div>
+<div class="cols cols-4">
+    <div class="product"> 
+        <a href="https://www.amazon.ae/MEETION-Colorful-Backlit-Keyboard-Headphone/dp/B07GKK8W11">
+            <img src="images/products/product-4.png"></a>
+        <p class="product-name">Combo Gamer Meetion</p>
+        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+        <p class="product-price">102,90 <span>€</span></p>
+
+    </div>
+    <div class="product"> 
+        <a href="https://www.amazon.es/-/pt/dp/B08GQ29HRP/ref=sr_1_1?crid=12WFVB9Y14FV3&keywords=Msi%2BGeforce%2BGTX%2B1850&qid=1701623699&sprefix=msi%2Bgeforce%2Bgtx%2B1850%2Caps%2C156&sr=8-1&th=1">
+             <img src="images/products/product-5.png"></a>
+        <p class="product-name">Msi GeForce GTX 1850</p>
+        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+        <p class="product-price">161,86 <span>€</span></p>
+    </div>
+    <div class="product"> 
+        <a href="https://www.amazon.es/-/pt/dp/B08KJPLGLF/ref=sr_1_1?crid=33U0JIQ8TZ996&keywords=dualsense%2Bps5&qid=1701623991&sprefix=Dual%2Caps%2C153&sr=8-1&th=1">
+        <img src="images/products/product-6.png"></a>
+        <p class="product-name">Dual Sense Ps5</p>
+        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="product-price">71,13 <span>€</span></p>
+    </div>
+    <div class="product"> 
+        <a href="https://www.amazon.com.br/Cadeira-Gamer-Prizi-Vermelha-Pz1006e/dp/B095XBSYPQ">
+            <img src="images/products/product-7.png"></a>
+        <p class="product-name">Cadeira Gamer Prizi</p>
+        <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+        <p class="product-price">167,73 <span>€</span></p>
+    </div>
+</div>
+</div>
+</div>
+  
+<div cass="page-inner-content">
+        <h3 class="section-title">Últimos produtos</h3>
+        <div class="subtitle-underline"></div>
+        <div class="cols cols-4">
+            <div class="product"> 
+                <a href="https://www.fnac.pt/Apple-iPhone-14-Pro-Max-512GB-Roxo-Escuro-Telemovel-iPhone/a10350303">
+                    <img src="images/products/product-8.png"></a>
+                <p class="product-name">IPhone 14 Pro Max 512GB</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="product-price">1302 <span>€</span></p>
+            </div>
+            <div class="product"> 
+                <a href="https://www.backmarket.pt/pt-pt/p/samsung-galaxy-s23-ultra-1000-gb-cinzento-desbloqueado/3ac876fa-5e26-4dea-bfb6-809e528e21eb?shopping=gmc&gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8Sy-iscSRs7xfaHYGQNdFRH7ozBWiRxC9n9Y5nCWYeEOVoXfn8fPB4aAiv-EALw_wcB#l=10">
+                    <img src="images/products/product-9.png"></a>
+                <p class="product-name">Samsung Galaxy S23 Ultra 1TB</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p class="product-price">1550 <span>€</span></p>
+            </div>
+            <div class="product"> 
+                <a href="https://www.worten.pt/produtos/smartphone-asus-rog-phone-3-5g-6-59-12-gb-512-gb-preto-7234121">
+                <img src="images/products/product-10.png"></a>
+                <p class="product-name">Asus Rog Phone 3</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="product-price">999,99 <span>€</span></p>
+            </div>
+            <div class="product"> 
+                <a href="https://bludiode.com/pt/celulares-e-smartphones/xiaomi-13-ultra-12gb256gb-preto-22744/?SubmitCurrency=3&id_currency=3&RgExcludeLocationDetection&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8R_4MPCH7fpzGrctq9HH3gPkwXTao6CyTesNxKQqU7xxIsv8cGm6pgaArp3EALw_wcB">
+                    <img src="images/products/product-11.png"></a>
+                <p class="product-name">Xiaomi 13 Ultra</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="product-price">780,33 <span>€</span></p>
+            </div>
+            <div class="product"> 
+                <a href="https://www.amazon.es/-/pt/dp/B08H93ZRLL/ref=sr_1_1?crid=VPAU16A53KKX&keywords=Xbox%2BSeries%2BX&qid=1701625733&sprefix=xbox%2Bseries%2Bx%2Caps%2C187&sr=8-1&th=1">
+                    <img src="images/products/product-12.png"></a>
+                <p class="product-name">Xbox Series X</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p class="product-price">469,99 <span>€</span></p>
+            </div>
+            <div class="product"> 
+                <a href="https://www.amazon.com/Thrustmaster-Ferrari-Racing-Wheel-playstation-4/dp/B077MT5XPP?th=1">
+                <img src="images/products/product-13.png"></a>
+                <p class="product-name">Racing Wheel GT480 Ferrari</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="product-price"><span style="color: rgb(219, 13, 13)">Esgotado</span>
+            </div>
+            <div class="product"> 
+                <a href="https://www.kuantokusta.pt/p/2021206/sony-playstation-5-standard-edition-825gb-ssd?gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8R-oQ7Kga034Lc_j12yuS7A6tg0EvolcuPvAaLPB27tUuBxYmvkdgQaAtzNEALw_wcB">
+                    <img src="images/products/product-14.png"></a>
+                <p class="product-name">PlayStation 5</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                <p class="product-price">549 <span>€</span></p>
+            </div>
+            <div class="product"> 
+                <a href="https://outlet-pc.pt/products/hp-omen-desktop-gt12-1052ur-i5-11400f-16gb-512ssd-rtx-3060-ti-freedos-sin-windows-reacondicionado?utm_source=google&utm_medium=cpc&utm_campaign=PT%20-%20Performance%20Max%202.0%20-%20General&utm_content=Performance%20Max&utm_term=&gad_source=1&gclid=Cj0KCQiA67CrBhC1ARIsACKAa8RQlf5cPvAi0jkzCdw1dqGX6jyzpopwMTwxl2IdnEEsfZ69WGIihPcaAvoOEALw_wcB">
+                    <img src="images/products/product-15.jpg"></a>
+                <p class="product-name">HP OMEN Desktop GT12-1052ur</p>
+                <p class="rate">&#9733;&#9733;&#9733;&#9733;&#9734;</p>
+                <p class="product-price">739 <span>€</span></p>
+            </div>
+
+</div>
+<div class="gray-background">
+    <div class="header-inner-content">
+        <div class="header-bottom-side exclusive-container">
+            <div class="header-bottom-side-left">
+                <h2> Mi Smart Band 4
+                </h2>
+                <p>O Mi Smart Band 4 tem uma tela AMOLED 39.9% maior do que o MI
+                    Band 3, tela completamente digital com brilho ajustável,
+                de tal modo que tudo é claro ao máximo. </p>
+                    <a href="https://www.geekbuying.com/item/Xiaomi-Mi-Band-4-Smart-Bracelet-0-95-Inch-AMOLED-Color-Screen-Orange-417490.html">
+                        <button>Ver Agora &#8594;</button></a>
+            </div>
+                <div class="header-bottom-side-right">
+                    <img src="images/exclusive.png">
+                </div>
+             </div>
+          </div>
+     </div>
+<div>
+            <div class="page-inner-content">
+                <div class="feedbacks">
+                    <div class="feedback">
+                        <p>"</p>
+                        <p>O melhor Website E-Commerce que já vi, vou já
+                            falar com os meus amigos sobre isto! Adorei!
+                         </p>
+                         <p class="rate"> &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                         <p>César Mourão</p>
+                    </div>
+                    <div class="feedback">
+                        <p>"</p>
+                        <p>Nunca vi um site assim na minha vida... Está divinal!
+                         </p>
+                         <p class="rate"> &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                         <p>Marcelo Rebelo de Sousa</p>
+                    </div>
+                    <div class="feedback">
+                        <p>"</p>
+                        <p>Comprei uma PlayStation 5 e chegou passado 2 dias úteis. Recomendo!
+                         </p>
+                         <p class="rate"> &#9733;&#9733;&#9733;&#9733;&#9733;</p>
+                         <p>Rui Pinto</p>
+                 </div>
+              </div>
+            </div>
+          </div>
+</main>
+
+<footer class="gray-background">
+    <div class="page-inner-content footer-content">
+        <div class="download-options">
+            <p>Baixa a aplicação!</p>
+            <p>Baixa a aplicação para Android e iOS</p>
+        <div>
+        <img src="images/app-store.png">
+        <img src="images/play-store.png">
+
+    </div>
+</div>
+<div class="logo-footer">
+    <h1 class="logo">Tec<span>Store</span></h1>
+    <p>O meu objetivo é ajudar as pessoas a encontrarem os seus interesses</p>
+</div>
+<div class="links-footer">
+    <h3><span style="color: aquamarine;">Links úteis</span></h3>
+    <ul>
+        <a href="https://www.hcouponcodes.com/store/de-57808.html?utm_source=bing&utm_medium=cpc&utm_campaign=0628-us-hc-144&utm_term=de%20promo%20code&utm_content=De-0627" class="modificar"><li>Cupons</li></a>
+        <a href="https://www.webnode.com/pt/blog-moderno-gratis/?utm_source=bing&utm_medium=cpc&utm_campaign=PT-PT-SEA-MSA_Blog&utm_campaign_id=391302074&utm_term=GNR-MIX-PHR&utm_adgroup_id=1194070396345700&trc_cr=74629509657292&trc_cp=PT-PT&msclkid=6a6ab9229ea310bad9bddcba3523fce2" class="modificar"><li>Blog Post</li></a>
+            <a href="https://diegocastro.adv.br/modelo-politica-privacidade/" class="modificar"><li>Políticas</li></a>
+                <a href="https://www.hostinger.com.br/tutoriais/dicas-para-ser-afiliado-de-sucesso" class="modificar"><li>Torna-te afiliado</li></a>
+    </ul>
+</div>
+
+    </div>
+    <hr class="page-inner-content">
+    <div class="page-inner-content copyright">
+        <p>Copyright 2023 - Martim Gomes - Todos os Direitos Reservados</p>
+</footer>
+
+
+<script src="tecstore.js"></script>
+<script src="javascript.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

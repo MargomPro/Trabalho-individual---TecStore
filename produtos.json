@@ -1,0 +1,60 @@
+[
+    {
+        "id": 1,
+        "name":"HyperX Cloud II",
+        "price": 70,
+        "imagem": "imagem/product-16.png",
+        "link": "https://alexnld.com/product/kingston-hyperx-cloud-ii-khx-hscp-rd-hurricane-black-red-head-mounted-gaming-headset/?msclkid=6616356aef68126fca1550ce97f6b408&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping&utm_term=1101400000652&utm_content=Ad%20group%20%231"
+        
+    },
+    {
+        "id": 2,
+        "name":"Rato Razer Deathadder",
+        "price": 100,
+        "imagem": "imagem/product-17.png",
+        "link": "https://www.amazon.com/Razer-DeathAdder-Essential-Gaming-Mouse/dp/B094PS5RZQ/ref=sr_1_3?adgrpid=1344703965743549&hvadid=84044278563752&hvbmt=be&hvdev=c&hvlocphy=137769&hvnetw=o&hvqmt=e&hvtargid=kwd-84044835629877%3Aloc-152&hydadcr=17080_13458926&keywords=mouse+deathadder&qid=1705277744&s=electronics&sr=1-3"
+    },
+    {
+        "id": 3,
+        "name":"Portátil Gaming Acer Nitro 5 Full HD",
+        "price": 290,
+        "imagem": "imagem/product-18.png",
+        "link": "https://notebookstore.hu/acer-nitro-5-gamer-notebook-an515-55-72ke-156-fullhd-intel-core-i7-10750h-8gb-ram-1tb-ssd-nvidia-geforce-rtx-3060-6gb-magyar-billentyuzet-operacios-rendszer-nelkul-3-ev-garancia-fekete-szinben-p11483"
+    },
+    {
+        "id": 4,
+        "name":"HyperX Alloy Core RGB",
+        "price": 200,
+        "imagem": "imagem/product-19.png",
+        "link": "https://hyperx.com/products/hyperx-alloy-core-rgb-gaming-keyboard?variant=41077932687517"
+    },
+    {
+        "id": 5,
+        "name":"Intel® Core™ i7-13700KF",
+        "price": 300,
+        "imagem": "imagem/product-20.png",
+        "link": "https://www.pccomponentes.pt/intel-core-i7-13700kf-34-ghz-box?msclkid=9c1b2f820d09109c18024a2674cb9d04&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping%20Geral%20(S)%20-%20Bing&utm_term=4583245562009763&utm_content=General%20(S)"
+    },
+    {
+        "id": 6,
+        "name":"Placa gráfica GeForce RTX™ 4060 Ti",
+        "price": 200,
+        "imagem": "imagem/product-21.png",
+        "link": "https://www.pccomponentes.pt/msi-geforce-rtx-4060-ventus-2x-black-oc-8gb-gddr6-dlss3?msclkid=ae3b4189e35f13062878242d9abf7fa3&utm_source=bing&utm_medium=cpc&utm_campaign=Placas%20Gr%C3%A1ficas%20(S)%20-%20Bing&utm_term=4582627090082634&utm_content=Placas%20Gr%C3%A1ficas%20(S)"
+    },
+    {
+        "id": 7,
+        "name":"Motherboard NAS 4 portas i225-V",
+        "price": 200,
+        "imagem": "imagem/product-22.png",
+        "link": "https://www.amazon.de/Motherboard-HDMI2-0-Routing-Ethernet-Barebone/dp/B0BK96T81J"
+    },
+    {
+        "id": 8,
+        "name":"Microfone Gaming FIFINE",
+        "price": 200,
+        "imagem": "imagem/product-23.png",
+        "link": "https://pt.aliexpress.com/item/1005004828097942.html?aff_platform=true&aff_short_key=UneMJZVf&isdl=y&src=bing&pdp_npi=3%40dis%21EUR%21106.93%2157.74%21%21%210%21%21%40%2112000035290916677%21ppc%21%21&albch=shopping&acnt=135095331&isdl=y&albcp=554517166&albag=1308419933920092&slnk=&trgt=pla-4585375812846751&plac=&crea=81776298165479&netw=o&device=c&mtctp=e&utm_source=Bing&utm_medium=shopping&utm_campaign=PA_Bing_PT_PC_customlabel1-20230705&utm_content=customlable1%3D7&utm_term=microfone%20gaming%20fifine&msclkid=469da7d8fee81a5efea1c27c85f5b9a6"
+    }
+
+]
