@@ -1,1 +1,1 @@
-"# Trabalho-individual---TecStore" 
+NOTA:  Algumas páginas da loja têm valores diferentes no seu design, porque enquanto construía e estudava a matéria para a unidade curricular de Ciberjornalismo ao longo da unidade curricular, apliquei valores que não tinha tanta noção no início do trabalho e só no final do projeto é que soube que a única correção possível seria a desconstrução inteira do website (visto que, iria precisar de muito tempo para solucionar esse pormenor).   
